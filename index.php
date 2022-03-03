@@ -1,6 +1,7 @@
 <?php
 include_once 'includes/header.php';
 ?>
+
 <div class="row">
   <div class="col s12 m6 push-m3">
     <h3 class="light">Clientes</h3>
@@ -34,9 +35,10 @@ include_once 'includes/header.php';
       </tbody>
     </table>
     <br>
-    <a href="" class="btn">Adicionar cliente</a>
+    <a href="adicionar.php" class="btn">Adicionar cliente</a>
   </div>
 </div>
+
 <?php
 include_once 'includes/footer.php';
 ?>
